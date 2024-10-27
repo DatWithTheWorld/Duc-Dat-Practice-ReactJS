@@ -1,0 +1,10 @@
+.profile-area{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+.project-area{
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
